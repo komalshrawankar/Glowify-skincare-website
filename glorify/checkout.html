@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout page</title>
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous">
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- style-link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a><img src="images/logo_white.svg" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">SKINCARE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HAIRCARE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BODYCARE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FACECARE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MAKEUP</a>
+                    </li>
+
+
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+                </form>
+                <div class="navbar-icons">
+                    <i class="fa-solid fa-user"></i>
+                    <span><a href="./login.html">profile</a></span>
+                    <i class="fa-regular fa-heart"></i>
+                    <span><a href="./cart.html">wishlist</a>
+                    </span>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span><a href="./checkout.html">bag</a></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- order section -->
+    <div class="order">
+        <div class="order-img">
+            <div class="order-text">
+                <div>
+                    <h1>Complete Your Beauty Order</h1>
+                    <p> Home/Cart</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="billing">
+        <div class="container">
+            <div class="row">
+                <div class="billing-flex">
+                    <div class="billing-detail">
+                        <div class="col-12 col-sm-12 col-md-12">
+                            <h2>BILLING DETAILS</h2>
+                            <p>please enter your billing details</p>
+                            <div class="billing-box">
+                                <div class="flex1">
+                                    <div>
+                                        <label for=""> First Name</label>
+                                        <input type="text"><br><br>
+                                        <label for="">Email Address</label>
+                                        <input type="email">
+                                    </div>
+                                    <div>
+                                        <label for=""> Last Name</label>
+                                        <input type="text"><br><br>
+                                        <label for=""> Phone</label>
+                                        <input type="number">
+
+                                    </div>
+                                </div>
+                                <div class="flex2">
+                                    <label for=""> Address</label><br>
+                                    <textarea> address</textarea>
+                                </div>
+                                <div class="flex3">
+                                    <div>
+                                        <label for="">City</label>
+                                        <input type="text">
+                                        <label for=""> ZIP/Postal Code</label>
+                                        <input type="text">
+                                    </div>
+                                    <div>
+                                        <label for=""> State/Province</label>
+                                        <input type="text">
+                                        <label for=""> Country</label>
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <h4>SHIPPING ADDRESS</h4>
+                                <hr>
+                                <input type="checkbox"> ship to different address?
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="order-summary">
+                        <div class="col-12 col-sm-12 col-md-6">
+
+                            <div class="section">
+                                <h2> ORDER SUMMARY</h2>
+                                <div class="section1-1">
+                                    <div class="text">
+                                        <h5>Silk Lash Extension</h5>
+                                        <p> size: One Size</p>
+                                        <p> Quantity:1</p>
+                                    </div>
+                                    <div class="price">
+                                        <b>$24.99</b>
+                                    </div>
+
+                                </div>
+                                <hr>
+
+                            </div>
+                            <div class="section">
+                                <div class="section2-1">
+                                    <div class="text">
+                                        <h5>vitamin C Serum</h5>
+                                        <p> size:30ml</p>
+                                        <p> Quantity:2</p>
+                                    </div>
+                                    <div class="price">
+                                        <b> $29.99</b>
+
+                                    </div>
+
+                                </div>
+                                <hr>
+
+
+                            </div>
+                            <div class="section">
+                                <div class="section3-1">
+                                    <div class="text">
+                                        <h5>Hyaluronic Acid Serum</h5>
+                                        <p> size:50ml</p>
+                                        <p> Quantity:1</p>
+                                    </div>
+                                    <div class="price">
+                                        <b> $19.99</b>
+
+                                    </div>
+                                    <hr>
+                                </div>
+
+                                <hr>
+                            </div>
+                            <div class="section">
+                                <div class="section4-1">
+                                    <div class="text">
+                                        <h5>Silk Lash Extension</h5>
+                                        <p> size: One Size</p>
+                                        <p> Quantity:1</p>
+                                    </div>
+                                    <div class="price">
+                                        <b>$24.99</b>
+
+                                    </div>
+                                    <hr>
+                                </div>
+                                <hr>
+
+                            </div>
+                            <div class="section">
+                                <div class="section5">
+                                    <div class="text">
+                                        <h5>Silk Lash Extension</h5>
+                                        <p> size: One Size</p>
+                                        <p> Quantity:1</p>
+                                    </div>
+                                    <div class="price">
+                                        <b> $24.99</b>
+
+                                    </div>
+
+                                </div>
+                                <hr>
+
+                            </div>
+                            <div class="total">
+                                <div class="total-l">
+                                    <p>subtotal</p>
+                                    <p> Shipping Free</p>
+                                    <hr>
+                                    <p>Total</p>
+                                </div>
+                                <div class="total-r">
+                                    <b>
+                                        $236.92 <br>
+                                        $4.99 <br><br><br>
+                                        <p> $241.91 </p>
+                                    </b>
+                                </div>
+                            </div>
+                            <div class="payment">
+                                <h2>PAYMENT METHOD</h2>
+                                <P> Choose your preffered payment method:</P>
+                                <p>
+                                    <input type="checkbox"> Credit Card <br>
+                                    <input type="checkbox"> Pay Pal <br>
+                                    <input type="checkbox"> Google Pay <br>
+                                    <input type="checkbox"> Cash On Delivery <br>
+                                    <button>PLACE ORDER</button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer section
+     -->
+    <footer>
+        <div class="footer">
+            <div class="logo">
+                <img src="./images/logo.svg" alt="" srcset="">
+            </div>
+            <div class="sections">
+                <div class="section1">
+                    <h6> CONTACT INFORMATION</h6>
+                    <ul type="none">
+                        <li> +1(555) 123-4567</li>
+                        <li>cs@glowify</li>
+                        <li>123 Anywhere street,anytown ,usa</li>
+
+                    </ul>
+                </div>
+                <div class="section2">
+                    <h6> MY ACCOUNT</h6>
+                    <ul type="none">
+                        <li> Sign in</li>
+                        <li> New Bag</li>
+                        <li> My Wishlist</li>
+                        <li>
+                            Track My Order
+                        </li>
+                        <li>
+                            Help
+                        </li>
+
+                    </ul>
+
+
+                </div>
+                <div class="section3">
+                    <h6> INFORMATION</h6>
+                    <ul type="none">
+                        <li> delivery information</li>
+                        <li> blog</li>
+                        <li> FAQs</li>
+                        <li>
+                            contact us
+                        </li>
+                        <li>
+                            Sitemap
+                        </li>
+
+                    </ul>
+
+
+                </div>
+                <div class="section4">
+                    <h6>CUSTOMER SERVICE</h6>
+                    <ul type="none">
+                        <li> Shipping & Return</li>
+                        <li> Secure shopping</li>
+                        <li> international shipping</li>
+                        <li>
+                            affilates
+                        </li>
+                        <li>
+                            contact
+                        </li>
+
+                    </ul>
+
+
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <div class="line-footer"></div>
+    <div class="privacy">
+        <span>
+            Privacy Policy | Terms & Condition
+        </span>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
